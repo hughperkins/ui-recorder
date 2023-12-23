@@ -1,13 +1,11 @@
 # ui-recorder
+
 Record ui to json file, playback from it. Ignores your random pauses and stuff, whilst you read the instructions.
 
-This app fuses consecutive actions of the same type (except mouse clicks) together, into single actions.
-
-You can edit the recording, before playing it back.
-
-By default, fused actions are fused into actions of 1 second, for mouse scrolls, and mouse moves.
-
-Typing is played back at 10 characters per second. (about 120 wpm)
+- This app fuses consecutive actions of the same type (except mouse clicks) together, into single actions.
+- You can edit the recording, before playing it back.
+- By default, fused actions are fused into actions of 1 second, for mouse scrolls, and mouse moves.
+- Typing is played back at 10 characters per second. (about 120 wpm)
 
 *Note: only support Mac OS X*.
 - tested on Sonoma, using a MacBook Air M2 (but I imagine it should run on any recent-ish Mac?)
