@@ -24,8 +24,14 @@ Actions supported:
     - to scroll up or down faster, use shift + up/down arrows
     - to scroll massively, to ensure you start at a known scroll position, use command + down
 
+## Installation:
+
+- clone this repo, and cd into the root of this repo
+- if you have poetry, run `poetry install`
+- otherwise, use pip: `pip install .`, or `pip install -e .`, as you prefer
+
 ## To record:
-- run
+- from the root of this cloned repo, run:
 ```
 python prot/record.py --filepath [filepath where your output will be recorded as json]
 ```
@@ -40,7 +46,7 @@ Note that alt-tab is ignored, so you can freely switch backwards and forwards be
 
 ## To playback
 
-- run
+- from the root of this cloned repo, run:
 ```
 python prot/replay.py --filepath [filepath to recorded json]
 ```

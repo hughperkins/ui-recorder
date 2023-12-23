@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "prot"
+name = "ui-recorder"
 version = "0.1.0"
-description = ""
+description = "Record ui to json file, playback from it. Ignores your random pauses and stuff, whilst you read the instructions."
 authors = ["Hugh Perkins <hughperkins@gmail.com>"]
 readme = "README.md"
 
