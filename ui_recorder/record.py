@@ -35,8 +35,8 @@ import time
 import math
 import chili
 
-from prot import smooth_step, ui_events
-from prot.speak import say
+from ui_recorder import smooth_step, ui_events
+from ui_recorder.speak import say
 
 
 class Recorder:

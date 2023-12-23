@@ -1,6 +1,6 @@
 import argparse
 
-from prot import record
+from ui_recorder import record
 
 
 def run(args: argparse.Namespace) -> None:

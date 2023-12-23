@@ -1,6 +1,6 @@
 import chili
 
-from prot import ui_events
+from ui_recorder import ui_events
 
 
 def run():
