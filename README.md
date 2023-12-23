@@ -33,7 +33,7 @@ Actions supported:
 ## To record:
 - from the root of this cloned repo, run:
 ```
-python prot/record.py --filepath [filepath where your output will be recorded as json]
+python ui_recorder/record.py --filepath [filepath where your output will be recorded as json]
 ```
 - alt-tab over to your application
 - press 'escape'
@@ -48,7 +48,7 @@ Note that alt-tab is ignored, so you can freely switch backwards and forwards be
 
 - from the root of this cloned repo, run:
 ```
-python prot/replay.py --filepath [filepath to recorded json]
+python ui_recorder/replay.py --filepath [filepath to recorded json]
 ```
 - alt-tab over to your application
 - press 'escape'
