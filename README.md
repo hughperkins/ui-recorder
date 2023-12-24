@@ -10,6 +10,10 @@ Record ui to json file, playback from it. Ignores your random pauses and stuff, 
 *Note: only support Mac OS X*.
 - tested on Sonoma, using a MacBook Air M2 (but I imagine it should run on any recent-ish Mac?)
 
+[![Control Unity from Python WITHOUT mlagents](http://img.youtu.be/vi/JJIVHhnK_G4/0.jpg)](https://youtu.be/JJIVHhnK_G4 "UI Recorder with fused actions and flawless replay")
+
+https://youtu.be/JJIVHhnK_G4
+
 ## Currently supported actions
 
 Actions supported:
