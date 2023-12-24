@@ -240,9 +240,12 @@ class Recorder:
         with open(filepath, 'w') as f:
             # f.write(json.dumps(events_dicts, indent=2))
             f.write("[\n")
-            for evt_dict in events_dicts:
-                f.write(json.dumps(evt_dict) + "\n")
-            f.write("}\n")
+            for n, evt_dict in enumerate(events_dicts):
+                if n > 0:
+                    f.write(",")
+                f.write("\n")
+                f.write(json.dumps(evt_dict))
+            f.write("\n]\n")
 
         os.system(f"cat {filepath}")
 
