@@ -26,6 +26,18 @@ class MouseMove(Event):
 
 
 @dataclass
+class Pause(Event):
+    duration_secs: float
+
+    def __init__(self, duration_secs: float) -> None:
+        super().__init__()
+        self.duration_secs = duration_secs
+
+    def __str__(self) -> str:
+        return 'Pause()'
+
+
+@dataclass
 class Typing(Event):
     text: str
 

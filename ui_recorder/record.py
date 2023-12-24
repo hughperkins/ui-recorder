@@ -299,6 +299,9 @@ class Recorder:
                 for c in evt.text:
                     self.keyboard_c.press(c)
                     time.sleep(0.1)
+            elif isinstance(evt, ui_events.Pause):
+                print('pause')
+                time.sleep(evt.duration_secs)
             else:
                 say(f"Unknown event {evt.class_type}")
                 raise Exception(f"Unknown event {evt.class_type}")
