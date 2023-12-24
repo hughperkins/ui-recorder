@@ -10,7 +10,7 @@ Record ui to json file, playback from it. Ignores your random pauses and stuff, 
 *Note: only support Mac OS X*.
 - tested on Sonoma, using a MacBook Air M2 (but I imagine it should run on any recent-ish Mac?)
 
-[![UI Recorder with fused actions and flawless replay](https://img.youtube.com/vi/JJIVHhnK_G4/0.jpg)](https://youtu.be/JJIVHhnK_G4 "UI Recorder with fused actions and flawless replay")
+[![UI Recorder with fused actions and flawless replay](https://img.youtube.com/vi/DG5o9qqaLA8/0.jpg)](https://www.youtube.com/watch?v=DG5o9qqaLA8)
 
 https://youtu.be/JJIVHhnK_G4
 
