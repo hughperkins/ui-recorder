@@ -319,11 +319,16 @@ class Recorder:
 
 def run(args: argparse.Namespace) -> None:
     recorder = Recorder()
+    if args.first_replay is not None:
+        for filepath in args.first_replay:
+            print(filepath)
+            recorder.replay(filepath=filepath)
     recorder.record(filepath=args.filepath)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--first-replay', nargs='+', type=str, help='list of json files to reply first')
     parser.add_argument("--filepath", type=str, required=True)
     args = parser.parse_args()
     run(args)
