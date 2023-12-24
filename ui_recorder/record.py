@@ -238,7 +238,11 @@ class Recorder:
         events_dicts = [chili.encode(evt) for evt in self.events]
         print(events_dicts)
         with open(filepath, 'w') as f:
-            f.write(json.dumps(events_dicts, indent=2))
+            # f.write(json.dumps(events_dicts, indent=2))
+            f.write("[\n")
+            for evt_dict in events_dicts:
+                f.write(json.dumps(evt_dict))
+            f.write("}\n")
 
         os.system(f"cat {filepath}")
 
